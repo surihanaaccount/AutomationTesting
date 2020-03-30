@@ -42,7 +42,7 @@ public class FlipkartAutomation {
 	    
 	    Thread.sleep(30000);
 		
-		//driver.close();
+		driver.close();
 		
 		
 		
