@@ -25,12 +25,7 @@ public class FlipkartAutomation {
 		
 	    driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click();
 	    
-	    //WebElement giftCard= driver.findElement(By.xpath("//*[@id=\"container\"]/div/footer/div/div[3]/div[2]/div/div[3]/a/span"));
-		
-		//JavascriptExecutor js=(JavascriptExecutor)driver;
-		//js.executeScript("window.scrollTo(0,"+giftCard.getLocation().x+")");
-		
-		//giftCard.click();
+	    
 	    
 	    WebElement women=driver.findElement(By.cssSelector("._114Zhd>li:nth-child(4)"));
 	    
